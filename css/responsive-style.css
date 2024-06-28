@@ -1,0 +1,159 @@
+@import "style.css";
+
+/* 1170px */
+@media (max-width: 1199.5px) {
+    
+    /* parallax */
+    .parallax:not(.parallax-main){
+        background-size: 50%;
+    }
+
+    .main-wrapper .black-card{
+        width: 100%;
+    }
+
+    /* Process */
+    .process-wrapper .process-content span{
+        color: var(--primary-color);
+        font-size: 7rem;
+        font-weight: 800;
+        margin-right: 2rem;
+    }
+
+    /* Contact */
+    .form-section{
+        padding: 4rem 1rem;
+    }
+
+    .contact .get-in-touch .card{
+        padding: 2rem 1rem;
+    }
+
+}
+
+/* 991px */
+@media (max-width: 991.5px) {
+    
+    /* Navbar */
+    .header .navbar-collapse{
+        padding: 2rem;
+    }
+
+    .header .navbar-nav .nav-link{
+        padding: 0.6rem 0.5rem;
+        margin-bottom: 2rem;
+    }
+   
+    /* Banner */
+    .banner-wrapper{
+        margin-top: 4rem;
+        padding: 4rem 2rem;
+        min-height: 730px;
+    }
+
+    /* card */
+    .main-wrapper .black-card{
+        left: -226px;
+    }
+
+    .main-wrapper .black-card.right{
+        right: -226px;
+    }
+
+    /* Parallax */
+    .parallax-main{
+        background-size: cover;
+    }
+
+    /* Contact */
+    .contact .get-in-touch .card{
+        min-height: 350px;
+    }
+
+}
+
+/* 767px */
+@media (max-width: 767.5px) {
+    
+    /* General */
+    body, html{
+        font-size: 8px;
+    }
+
+    /* Banner */
+    .banner-wrapper{
+        min-height: 550px;
+    }
+    
+    /* card */
+    .main-wrapper .black-card{
+        left: 5%;
+        width: 90%;
+    }
+
+    .main-wrapper .black-card.right{
+        right: 5%;
+        width: 90%;
+    }
+
+    /* Parallax */
+    .parallax:not(.parallax-main){
+        background-size: cover;
+    }
+
+    .parallax-1{
+        background-size: cover;
+    }
+
+    /* Contact */
+    .contact .get-in-touch .card{
+        min-height: 310px;
+    }
+
+}
+
+/* 590px */
+@media (max-width: 590px) {
+ 
+    /* General */
+    body, html{
+        font-size: 7px;
+    }
+
+    /* Parallax */
+    .parallax.img2,
+    .parallax.img3,
+    .parallax.img4,
+    .parallax.img5{
+        height: 408px;
+    }
+
+    .main-wrapper{
+        margin-top: 35vh;
+    }
+
+    /* Footer */
+    .link-widget a img{
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Contact */
+    .contact .get-in-touch .card{
+        min-height: 254px;
+    }
+
+}
+
+/* 380px */
+@media (max-width: 390.4px){
+
+    h1{
+        font-size: 27px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+}
